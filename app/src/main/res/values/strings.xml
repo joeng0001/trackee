@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Trackee</string>
+    <string name="title_activity_ongoing_job_fragment">OngoingJobFragmentActivity</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false"></string>
+    <string name="google_maps_direction_key" templateMergeStrategy="preserve" translatable="false">hidden</string>
+    <string name="email_sender_pw" >osvnzebufvfwguwr</string>
+</resources>

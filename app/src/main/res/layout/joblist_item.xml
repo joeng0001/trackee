@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="6dp">
+
+
+
+    <LinearLayout
+        android:id="@+id/jobLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#D2D2D2"
+        android:padding="10dp"
+        >
+
+        <TextView
+            android:id="@+id/jobTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Job title:"
+        />
+
+        <TextView
+            android:id="@+id/jobRemarks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Remarks:"
+        />
+
+        <TextView
+            android:id="@+id/jobEndTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="End time:"
+            />
+
+        <TextView
+            android:id="@+id/jobLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Location:"
+            />
+
+    </LinearLayout>
+</LinearLayout>
